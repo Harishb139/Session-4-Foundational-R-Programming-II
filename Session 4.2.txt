@@ -1,0 +1,14 @@
+Session 4 – Foundational R Programming – II
+Assignment – 2
+
+1.
+> x <- c("data.science.in.R", "machine.learning.in.R")
+> x<-paste0("-", x)
+> x
+[1] "-data.science.in.R"     "-machine.learning.in.R"
+
+2.
+> x<- paste(x, collapse = " ")
+> x
+[1] "-data.science.in.R -machine.learning.in.R"
+>
